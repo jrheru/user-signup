@@ -62,7 +62,7 @@ def validate_user():
         verify = ""
     
     if email != "":
-        email_error = 'to proceed please enter a vaild password'
+        
         if not re.match(r"(^[A-Za-z0-9\.\+_-]+@[A-Za-z0-9\._-]+\.[a-zA-Z]*$)", email):
             email_error = 'This is not a vaild email, you can be left blank'
   
